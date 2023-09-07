@@ -1,0 +1,69 @@
+/* Estilo para los botones */
+button {
+  background-color: #2E7D32; /* Color verde oscuro */
+  color: #fff; /* Texto blanco */
+  border: none;
+  padding: 10px 20px; /* Mayor tamaño de botón */
+  cursor: pointer;
+  margin-right: 20px; /* Mayor separación entre botones */
+  border-radius: 8px; /* Bordes redondeados */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Tipo de letra */
+  font-size: 16px; /* Tamaño de fuente */
+  box-shadow: 0px 2px 8px rgba(0, 64, 0, 0.5); /* Sombra verde oscuro */
+}
+
+/* Estilo para la tabla */
+table {
+  width: 100%; /* Ancho completo */
+  margin: 0 auto; /* Centra la tabla horizontalmente */
+  border-collapse: separate; /* Utiliza separate para un espaciado entre celdas */
+  margin-top: 10px;
+  background-color: #D0E8A0; /* Color de fondo verde claro */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc; /* Reducir el grosor del borde */
+  text-align: left;
+}
+
+th {
+  background-color: #2E7D32; /* Color de fondo verde oscuro para encabezados de columna */
+  color: #fff;
+}
+
+/* Estilos generales de la aplicación */
+body {
+  margin: 0;
+  padding: 0;
+  background: #F2F4F5;
+  color: #1E1E1F;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Tipo de letra */
+}
+
+#root {
+  margin: 0 24px;
+  position: relative;
+  min-height: 100vh;
+}
+
+/* Estilos para el encabezado */
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff; /* Fondo blanco */
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.header img {
+  width: 200px; /* Tamaño fijo para las imágenes */
+  height: auto; /* Mantiene la relación de aspecto */
+  margin-right: 10px; /* Espacio de 10px entre imágenes */
+}
+
+/* Estilo para la celda de acciones */
+.actions-cell {
+  padding: 10px 20px 10px 0; /* Agrega un margen derecho de 20px a la celda de acciones */
+}
